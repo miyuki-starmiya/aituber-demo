@@ -1,0 +1,77 @@
+html, body {
+	/* background-image: url('pink_background.png'); */
+	background-size: cover;
+	margin: 0;
+	overflow: hidden;
+	font-family: "M PLUS 1p";
+	font-weight: 700;
+}
+
+#user-comment-box {
+	position: absolute;
+	top: 13%;
+	left: 3%;
+	width: 30%;
+	height: 55%;
+	padding: 1%;
+	z-index: 1;
+	/* box外は非表示 */
+	overflow: hidden;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+#question-box {
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	width: 40%;
+	padding: 1%;
+	z-index: 1;
+	font-size: 18px;
+}
+
+#response-box {
+	position: absolute;
+	top: 73%;
+	left: 5%;
+	width: 85%;
+	padding: 1%;
+	z-index: 1;
+}
+
+#aituber-response {
+	font-size: 20px;
+	font-family: "M PLUS 1p";
+}
+
+/* user-container */
+.user-container {
+	display: flex;
+	font-size: 14px;
+	margin: 6px 2px;
+}
+
+.image-cropper {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+	flex-shrink: 0;
+}
+
+.user-icon {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.user-name, .user-comment {
+	margin: 0 0 0 4px;
+}
+
+.user-name {
+	flex-shrink: 0;
+}
