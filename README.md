@@ -1,0 +1,2 @@
+# aituber-demo
+AITuberのデモリポジトリです
